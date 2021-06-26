@@ -1,0 +1,99 @@
+
+         *{
+          padding: 0;
+          margin: 0;
+          border: 0;
+          outline: none;
+        }
+        html, body {
+          width: 100%;
+          height: 100%
+        }
+        table {
+          border-collapse: collapse;
+          border-spacing: 0;
+          width: 100%;
+          border: 0;
+        }
+        p {
+          padding-bottom: 20px;
+        }
+        h1 {
+          font-size: 60px;
+          font-weight: normal;
+          color: #fff; 
+        }
+        .mainContainer {
+          width: 100%;
+          max-width: 960px;
+          margin: 0 auto;
+          font-family: arial, "sans-serif";
+          font-size: 15px;
+          color: #000;
+          line-height: 24px;
+          text-align: left;
+        }
+        .innerContainer {
+          border: 1px solid #cfd3d6;
+        }
+        .text-white { color: #fff; 
+        }
+        .head {
+          background: #0d83dd;
+          color: #fff;
+          padding: 40px 35px;
+          -webkit-print-color-adjust: exact;
+        }
+        .midd {
+          padding: 40px 35px;
+        }
+        .liteHeading {
+          color: #a2a2a2;
+          display: block;
+          padding-bottom: 3px;
+        }
+        .invoiceTotal {
+          color: #0d83dd;
+          font-size: 40px;
+          font-weight: normal;
+        }
+        .borderTable {
+          border-top: 3px solid #0d83dd;
+          margin: 25px 0 40px;
+        }
+        .borderTable td, .borderTable th {
+          padding: 10px;
+          text-align: right;
+        }
+        .borderTable th {
+         
+          color: #0d83dd;
+          padding-top: 15px;
+         
+        }
+        .borderTable td {
+          border-bottom: 1px solid #ccc;
+        }
+        .borderTable tr td:first-child, .borderTable tr th:first-child {
+          text-align: left;
+          
+        }
+        .borderTable .liteHeading {
+          padding-bottom: 0;
+        }
+       
+        .footTable td {
+          padding: 10px;
+          text-align: right;
+          line-height: 26px;
+        }
+        .footTable tr td:first-child {
+          text-align: left;
+        }
+        .blueColor {
+          color: #0d83dd;
+        }
+        @page {
+          margin: 0;
+        }
+    
